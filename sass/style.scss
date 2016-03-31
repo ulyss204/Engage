@@ -29,12 +29,14 @@
 	height: 14px;
 	list-style-type: none;
 	margin-right: 1%;
+	cursor: pointer;
 }
 .date__sign1{
 	background: url(../images/zakl1.png) no-repeat;
 	width: 14px;
 	height: 7px;
 	list-style-type: none;
+	cursor: pointer;
 }
 .color{
 	background-color: #f4fbfd;
@@ -53,7 +55,7 @@
 body{
 	margin: 2%;
 	font-size: 14px;
-	min-width: 320px;
+	min-width: 640px;
 	font-family: Verdana;
     font-weight: normal;
 	
@@ -62,7 +64,7 @@ body{
 header{
 	.orders{
 		width: 100%;
-		border-bottom: 1px solid #cccccc;
+		
 		
 		margin-bottom: 30px;
 		
@@ -205,7 +207,7 @@ article{
 .border{
 	border-top: none;
 	border-bottom: 1px dashed #cccccc;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 .order__price{
 	color: #f37a42;
