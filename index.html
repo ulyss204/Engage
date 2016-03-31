@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+	<header>
+		<div class="orders">
+			<ul class="order__item">
+				<li><a href="#" class="orders__black">Все заказы</a></li>
+				<li><a href="#">Текущие</a></li>
+				<li><a href="#">Завершенные</a></li>
+				<li><a href="#">Отмененные</a></li>
+			</ul>
+		</div>
+		<div class="date">
+			<ul class="order__item">
+				<li class="date__name bold" id ="arrow">Дата заказа</li>
+				<li class="date__name bold">№ заказа</li>
+				<li class="date__name bold">Текущий статус</li>
+			</ul>
+		</div>
+		<div class="date color">
+			<ul class="order__item">
+				<li class="date__name">9 июля 2012</li>
+				<li class="date__name">№0570</li>
+				<li class="date__name red"><div class="date__cancel"></div>Отменен</li>
+				<li class="date__sign float_right"></li>
+			</ul>
+		</div>
+		<div class="date" id="border">
+			<ul class="order__item">
+				<li class="date__name">3 июля 2012</li>
+				<li class="date__name">№ ME0017681</li>
+				<li class="date__name" id="width"><div class="date__lorry"></div>Отправлен курьерской службой</li>
+				<li class="date__sign float_right" id="sign"></li>
+			</ul>
+			<div class="date__expand display" id ="disp">
+				<ul class="expand float_left">
+					 
+					<li class="expand__data">Имя получателя:</li>
+					<li class="expand__data">Электронная почта:</li>
+					<li class="expand__data">Доставка:</li>
+					<li class="expand__data">Оплата:</li>
+				</ul>
+				<ul class="data float_left">
+					<li class="data__color">ул. Саксаганского, 65, кв. 11</li>
+					<li class="data__color">+38 050 123-45-56</li>
+					<li class="data__color">Курьером лично в руки.Адрес:ул. Саксаганского, 65, кв. 11</li>
+					<li class="data__color">Наличными при получении</li>
+				</ul>
+			</div>
+		</div>
+		
+	</header>
+	<main>
+		<ul class="order__item top">
+			<li class="grid__item bold">Товары в заказе</li>
+			<li class="grid__item grid bold">Количество</li>
+			<li class="float_right data bold">Цена</li>
+		</ul>
+		<article>
+			<div class="order grid__item" >
+				
+				<div class="order__image float_left"></div>
+				<div class="float_left font">
+					<p class="order__title">Девушка c татуировкой дракона <span>Стиг Ларссон</span></p>
+					<p class="order__price">138 грн.</p>
+				</div>
+			</div>
+			<p class="number grid">1</p>
+			<p class="order__price float_right">138 грн.</p>
+		</article>
+		<article class="border">
+			<div class="order grid__item">
+				<div class="order__image1 float_left"></div>
+				<div class="float_left font">
+					<p class="order__title">Девушка, которая взрывала воздушные замки <span>Стиг Ларссон</span></p>
+				
+					<p class="order__crossed">170 грн.</p>
+					<p class="order__price">138 грн.</p>
+				</div>
+			</div>
+			<p class="number grid">1</p>
+			<p class="order__price float_right">138 грн.</p>
+		</article>
+		<div class="float_right">
+			<p>Доставка:<span class="order__price">20 грн.</span></p>
+		</div>
+		<article class="clear">
+			<p class="bonus float_left bold">
+				+38 бонусов <span>за этот заказ<span>
+			</p>
+			<div class="float_right">
+			<p>Сумма заказа:<span class="order__price">182 грн.</span></p>
+		</div>
+		</article>
+
+	</main>
+	<footer class="clear">
+		<ul class="order__item color foot">
+			<li class="date__name">17 мая 2012</li>
+			<li class="date__name">№0570</li>
+			<li class="date__name green"><div class="date__approve"></div>Доставлен</li>
+			<li class="date__sign float_right"></li>
+		</ul>
+		<ul class="order__item color foot">
+			<li class="date__name">29 февраля 2012</li>
+			<li class="date__name">№ ME0017681</li>
+			<li class="date__name green"><div class="date__approve"></div>Доставлен</li>
+			<li class="date__sign float_right"></li>
+		</ul>
+	</footer>
+	<script src = "js/javascript.js"></script>
+</body>
+</html>
