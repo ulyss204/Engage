@@ -84,6 +84,10 @@ header{
 				
 			}
 		}
+		.orders__not-active{
+			pointer-events: none;
+       		cursor: default;
+		}
 		
 	}
 	.date{

@@ -438,6 +438,9 @@ header .orders {
     header .orders li .orders__black {
       color: #000;
       border: none; }
+  header .orders .orders__not-active {
+    pointer-events: none;
+    cursor: default; }
 
 header .date {
   width: 100%;
